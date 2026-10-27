@@ -100,6 +100,14 @@ factual correctness, readability, or usefulness.
 The experiment was developed in Google Colab. The notebook should
 be included in the repository to document the complete workflow.
 
+## Fine-Tuned Model
+
+The fine-tuned BART model is hosted on Hugging Face:
+
+[View the fine-tuned model](https://huggingface.co/stew29/bart-cnn-dailymail-finetuned)
+
+The model was fine-tuned on a small subset of the CNN/DailyMail dataset for one epoch as an educational experiment. Evaluation was performed on a small test subset, so the results should be interpreted as preliminary rather than representative of full-dataset performance.
+
 ## Disclaimer
 
 This project is for educational purposes. Summaries can omit
